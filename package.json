@@ -1,0 +1,17 @@
+{
+  "name": "sixmo-form-automation",
+  "version": "1.0.0",
+  "description": "Автоматизация тестовой формы sixmo.ru — Playwright + Claude Code skill",
+  "main": "sixmo-form.js",
+  "scripts": {
+    "start": "node sixmo-form.js",
+    "start:headless": "node sixmo-form.js --headless",
+    "postinstall": "npx playwright install chromium"
+  },
+  "keywords": ["sixmo", "automation", "playwright", "form"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
